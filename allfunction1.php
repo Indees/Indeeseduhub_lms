@@ -183,17 +183,10 @@ if($conn->query($sql)){
 
     // for user registration
     if(isset($_POST['register'])){
-		$con=mysqli_connect("localhost","root","");
-		if(mysqli_connect_errno()){
-			echo "failed to connect";
-			mysqli_connect_error();
-			exit();
-		}
-		mysqli_select_db($con,"localdb");
 		
 		$username = $_POST['u_name'];
 		$sql="SELECT user_id from user where u_name='$username' LIMIT 1";
-		$result=mysqli_query($con,$sql); 
+		$result=mysqli_query($conn,$sql); 
 		$res=mysqli_num_rows($result);
 		if($res>0){
 			echo "<script>alert('Username already exist please choose another one!!')</script>";
@@ -202,7 +195,7 @@ if($conn->query($sql)){
 		}else{
 			$email = $_POST['email'];
 			$sql1="SELECT user_id from user where email='$email' LIMIT 1";
-		$result1=mysqli_query($con,$sql1); 
+		$result1=mysqli_query($conn,$sql1); 
 		$res1=mysqli_num_rows($result1);
 		if($res1>0){
 			echo "<script>alert('Email id already exist go for login or register with new id!!')</script>";
