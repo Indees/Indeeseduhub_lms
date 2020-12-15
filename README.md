@@ -1,6 +1,6 @@
 # http://indees.ezyro.com
 
-Project Description Design
+Project Description
 
 The idea and approach of this project is quite simple yet it is going to be very useful to the population. “Education is the key to success”, it is a popular proverb and the reason for all of us participating in the competition of this world. Education is the most important part of life and everyone has the equal right over education. The program like digital education is highly prevalent nowadays and it is one of the most popular ways to provide education globally.
 The situation now, turning worse day by day is alarming for the shift of the education policies totally online and creating a holistic environment while sitting back at home.
