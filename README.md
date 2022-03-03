@@ -1,6 +1,6 @@
 # http://indees.ezyro.com
 
-Project Description
+### Project Description
 
 The idea and approach of this project is quite simple yet it is going to be very useful to the population. “Education is the key to success”, it is a popular proverb and the reason for all of us participating in the competition of this world. Education is the most important part of life and everyone has the equal right over education. The program like digital education is highly prevalent nowadays and it is one of the most popular ways to provide education globally.
 The situation now, turning worse day by day is alarming for the shift of the education policies totally online and creating a holistic environment while sitting back at home.
@@ -10,7 +10,7 @@ When you are signing up in the website, you can join as a teacher or as a studen
 Finally we have the About Us and the Contact Us tab, where you will get to know about the team “Indees” and the “Indees Edu Hub”. But definitely the website is not the precise model due to the lack of financial strength, but we assured to provide a finished product with proper amenities and financial power.
 
 
-Database Connection Process 
+### Database Connection Process 
 
 Download the zip folder. Extract the file and paste it on your server. Inside the folder there is a .sql file named 'azure_lms.sql'. Import it to the database and give database name 'azure'. For changing the database connection and name, please visit connection.php and dbclass.php page.
 
